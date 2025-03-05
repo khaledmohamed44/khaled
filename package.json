@@ -1,0 +1,21 @@
+{
+  "name": "gunicorn-config-project",
+  "version": "1.0.0",
+  "description": "Gunicorn configuration project",
+  "private": true,
+  "homepage": "https://khaledmohamed44.github.io/m_pack22",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d .",
+    "build": "echo 'Building...'"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaledmohamed44/m_pack22.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
