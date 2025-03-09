@@ -133,3 +133,47 @@ footer {
     padding: 2rem 0;
     text-align: center;
 }
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--dark);
+    font-size: 2rem;
+}
+
+.config-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.config-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.config-item:hover {
+    transform: translateY(-5px);
+}
+
+.config-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.config-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    margin: 1rem 0;
+}
+
+.config-desc {
+    color: #666;
+    font-size: 0.9rem;
+}
