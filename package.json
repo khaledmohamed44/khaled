@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Gunicorn configuration project",
   "private": true,
-  "homepage": "https://khaledmohamed44.github.io/m_pack22",
+  "homepage": "https://khaledmohamed44.github.io/khaled",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npx gh-pages -d .",
-    "build": "echo 'Building...'"
+    "deploy": "gh-pages -d .",
+    "build": "echo 'No build required'"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
